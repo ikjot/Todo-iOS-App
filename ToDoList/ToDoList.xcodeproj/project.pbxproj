@@ -13,7 +13,6 @@
 		849646F6202526B000F4B3B4 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849646F4202526B000F4B3B4 /* ToDoList.xcdatamodeld */; };
 		849646F8202526B000F4B3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849646F7202526B000F4B3B4 /* Assets.xcassets */; };
 		849646FB202526B000F4B3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849646F9202526B000F4B3B4 /* LaunchScreen.storyboard */; };
-		849647042026AD0900F4B3B4 /* CoreDataHelper in Resources */ = {isa = PBXBuildFile; fileRef = 849647032026AD0900F4B3B4 /* CoreDataHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +24,6 @@
 		849646F7202526B000F4B3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849646FA202526B000F4B3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849646FC202526B000F4B3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		849647032026AD0900F4B3B4 /* CoreDataHelper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CoreDataHelper; sourceTree = "<group>"; };
-		849647052026BA2D00F4B3B4 /* TodoList-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TodoList-Bridging-Header.h"; path = "ToDoList/TodoList-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +40,6 @@
 		849646E1202526AF00F4B3B4 = {
 			isa = PBXGroup;
 			children = (
-				849647052026BA2D00F4B3B4 /* TodoList-Bridging-Header.h */,
 				849646EC202526AF00F4B3B4 /* ToDoList */,
 				849646EB202526AF00F4B3B4 /* Products */,
 			);
@@ -60,7 +56,6 @@
 		849646EC202526AF00F4B3B4 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				849647032026AD0900F4B3B4 /* CoreDataHelper */,
 				849646ED202526AF00F4B3B4 /* AppDelegate.swift */,
 				849646EF202526AF00F4B3B4 /* ViewController.swift */,
 				849646F1202526AF00F4B3B4 /* Main.storyboard */,
@@ -132,7 +127,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				849646FB202526B000F4B3B4 /* LaunchScreen.storyboard in Resources */,
-				849647042026AD0900F4B3B4 /* CoreDataHelper in Resources */,
 				849646F8202526B000F4B3B4 /* Assets.xcassets in Resources */,
 				849646F3202526AF00F4B3B4 /* Main.storyboard in Resources */,
 			);
